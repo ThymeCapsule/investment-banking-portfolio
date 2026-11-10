@@ -1,9 +1,8 @@
 # NatWest Group - excess-return valuation
 
-## Published deliverable
+## Published deliverables
+- `NatWest_Excess_Return_Model_Reviewed.xlsx` - residual-income model, peer cross-check, sensitivities and notes.
 - [NatWest valuation summary](NatWest_Valuation_Summary_Reviewed.pdf) - one-page valuation summary.
-
-The reviewed Excel workbook has been completed locally but is not yet published in this repository.
 
 ## Case question
 What value is implied by NatWest's tangible net asset value and the present value of expected returns above the cost of equity?
