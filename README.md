@@ -1,67 +1,32 @@
-# Investment Banking & Valuation Portfolio
+# Investment Banking Portfolio
 
-Independent financial modelling, valuation and transaction-analysis projects.
+A focused collection of finance case studies and valuation models prepared as an educational work sample. The emphasis is on traceable assumptions, transparent calculations, source discipline and clear disclosure of limitations.
 
-This repository demonstrates the analytical disciplines used in investment banking, corporate finance and public-markets research: financial statement analysis, valuation, scenario analysis, transaction rationale and clear communication of conclusions.
+## Valuation case studies
 
-> **Portfolio status:** Active development. The Signet DCF has been refreshed and published with dated market inputs, formula recalculation and explicit limitations. The remaining case studies are being validated.
+| Company | Method | Current model output | Primary limitation |
+|---|---|---:|---|
+| [Signet Jewelers](valuation-case-studies/signet-jewelers/README.md) | Unlevered DCF | US$155.83/share (Gordon growth); US$136.44/share (6.0x exit case) | Adjusted EBITDA guide bridge, working capital, capital returns and market-date alignment require further work. |
+| [Northern Star Resources](valuation-case-studies/northern-star-resources/README.md) | Forecast-period asset NAV | A$13.89/share | Explicit forecast ends FY36; remaining reserves are not valued, so this is partial NAV only. |
+| [NatWest Group](valuation-case-studies/natwest-group/README.md) | Excess-return / residual-income | 532.6p/share | Simplified bank model without explicit regulatory capital, RWA and credit-risk projections. |
 
-## Projects
+## Model files
 
-### 1. Signet Jewelers — Discounted Cash Flow Valuation
+Each company folder contains a reviewed Excel workbook, a one-page valuation summary and a case-study README. Workbooks contain the model, assumptions, sensitivities and/or source notes.
 
-**Method:** Unlevered DCF / enterprise-to-equity value bridge  
-**Status:** Reviewed workbook published; historical calibration and trading-comps work outstanding.
+## Review and source documentation
 
-The model forecasts unlevered free cash flow through FY32 and applies both a Gordon-growth terminal value and an exit-multiple cross-check.
+- [Model review and control log](docs/MODEL_REVIEW.md)
+- [Source register and market-data cut-off](docs/SOURCES.md)
 
-- [Reviewed Signet DCF workbook](projects/signet-jewelers/Signet_DCF_Reviewed_2026-11-10.xlsx)
-- [Signet case study and valuation snapshot](projects/signet-jewelers/README.md)
-- [Detailed model review and diligence checklist](docs/SIGNET_MODEL_REVIEW.md)
+## Modelling standards applied
 
-The current model outputs are US$158.47 per share under the 2.0% perpetuity-growth method and US$137.16 under the 6.0x exit-multiple method. The reference share price is US$118.58 (9 Nov 2026). The comparison is not synchronous because financial inputs are from 1 Aug 2026 and market inputs are from 6–9 Nov 2026. These are model outputs, not validated target prices.
+- Separate verified company disclosures, market observations and analyst assumptions.
+- Date-stamp market inputs and financial base dates; do not imply same-day alignment where it does not exist.
+- Tie central sensitivity-table outputs back to the model base case.
+- Exclude unsupported terminal values and weak statistical work rather than presenting them as robust evidence.
+- State where a simplified model omits operational, regulatory or accounting detail.
 
-### 2. Northern Star Resources — Net Asset Value
+## Important notice
 
-**Method:** Asset-level / life-of-mine NAV  
-**Status:** Model built; terminal-value methodology and operating assumptions require reconciliation.
-
-The case study considers mine-level cash flows, commodity-price assumptions, operating costs, capital expenditure, tax, rehabilitation and discounting. A material inconsistency between the residual-value input and the stated zero-terminal-value NAV methodology is flagged for resolution.
-
-- [Northern Star case study](projects/northern-star/README.md)
-
-### 3. NatWest Group — Excess Return Valuation
-
-**Method:** Residual income / excess-return valuation  
-**Status:** Model built; assumptions and bank-specific cross-checks require further validation.
-
-The analysis considers tangible book value, return on tangible equity, cost of equity and excess returns. Further work is required on CAPM inputs, capital distributions, regulatory capital and peer benchmarking.
-
-- [NatWest case study](projects/natwest/README.md)
-
-## Planned additions
-
-| Priority | Project | Deliverables |
-|---|---|---|
-| 1 | Signet DCF completion | Historical working-capital calibration, debt / ASR reconciliation, trading comps and investment conclusion |
-| 2 | M&A transaction analysis | Deal overview, strategic rationale, valuation, sources & uses, financing, accretion/dilution and key risks |
-| 3 | Three-statement model | Integrated income statement, balance sheet and cash flow, with scenario controls |
-| 4 | Trading comparables & precedent transactions | Peer selection, financial metrics, valuation multiples and adjustments |
-| 5 | LBO model | Sources & uses, debt schedule, cash sweep, returns analysis and sensitivities |
-
-## Modelling and review standards
-
-Each completed project should include:
-
-1. **Executive summary** — question, conclusion and key valuation drivers.
-2. **Business and industry overview** — business model, segment economics and relevant industry dynamics.
-3. **Historical analysis** — revenue, margins, working capital, capital expenditure, cash conversion and balance-sheet trends.
-4. **Forecast methodology** — explicit operating drivers and transparent assumptions.
-5. **Valuation** — methodology, calculations, enterprise-to-equity bridge and per-share value where relevant.
-6. **Sensitivities** — key operating and valuation variables, including downside cases.
-7. **Cross-checks** — relevant market multiples, precedent transactions or alternative valuation methods.
-8. **Sources and limitations** — dated source register, assumptions, unresolved items and model limitations.
-
-## Disclaimer
-
-All work is independently prepared for educational and professional portfolio purposes. It is not investment advice, a recommendation to buy or sell securities, or research produced on behalf of an employer, client or financial institution. Market data and assumptions must be checked against current primary sources before use.
+These are educational portfolio exercises, not investment research, investment advice, price targets or recommendations. Inputs are snapshots as of 9-10 November 2026 and will become stale. Do not rely on them for a live transaction, credit decision or investment decision without refreshing the underlying filings, market data and assumptions.
