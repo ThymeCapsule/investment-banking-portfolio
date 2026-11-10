@@ -17,7 +17,7 @@ Using the base operating case:
 | Enterprise value | US$5,701m | US$4,864m |
 | Equity value | US$6,228m | US$5,391m |
 | Implied value per share | US$158.47 | US$137.16 |
-| Terminal value / EV | 63.3% | 54.3% |
+| Terminal value / EV | 63.3% | 57.0% |
 
 Reference market price: US$118.58 at the 9 November 2026 close. The DCF output implies 33.6% upside under the perpetuity-growth method. **This is not a synchronous comparison**: cash, debt and diluted shares are from 1 August 2026, while market price and risk inputs are from 6–9 November 2026.
 
