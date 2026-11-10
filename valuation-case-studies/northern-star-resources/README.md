@@ -1,8 +1,9 @@
 # Northern Star Resources - forecast-period NAV
 
-## Deliverables
-- `Northern_Star_Forecast_Period_NAV_Reviewed.xlsx` - operating cash-flow NAV, Hemi scenario, sensitivities and notes.
-- `Northern_Star_Valuation_Summary_Reviewed.pdf` - one-page valuation summary.
+## Published deliverable
+- [Northern Star valuation summary](Northern_Star_Valuation_Summary_Reviewed.pdf) - one-page valuation summary.
+
+The reviewed Excel workbook has been completed locally but is not yet published in this repository.
 
 ## Case question
 What is the discounted value of the explicit FY27-FY36 cash-flow scenario for Northern Star's existing operations and the separate Hemi development scenario?
@@ -20,4 +21,4 @@ This is not a full reserve-life NAV. The 31 March 2026 Group Ore Reserve is 28.4
 ## Model construction and open diligence
 FY27 production, AISC and capex are aligned to September-quarter guidance midpoints. Total growth capital includes Hemi; the workbook splits this into A$1.635bn ex-Hemi plus A$225m Hemi capex. Later mine plans, cost curves, Hemi schedule and costs, site-specific royalties, taxes, closure liabilities and a reserve-life terminal framework require further work.
 
-**Use:** educational modelling exercise only; not investment advice. See `../../docs/MODEL_REVIEW.md` and `../../docs/SOURCES.md`.
+**Use:** educational modelling exercise only; not investment advice. See [model review](../../docs/MODEL_REVIEW.md) and [source register](../../docs/SOURCES.md).
