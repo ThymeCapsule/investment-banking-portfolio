@@ -1,0 +1,21 @@
+# Excel temporary and lock files
+~$*.xlsx
+~$*.xlsm
+*.tmp
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editor
+.vscode/
+.idea/
