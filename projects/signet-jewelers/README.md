@@ -1,12 +1,11 @@
 # Signet Jewelers — Discounted Cash Flow Valuation
 
-**Status: Updated model published locally; valuation remains subject to final market-data and operating-assumption review.**
+**Status: Reviewed DCF workbook published. Further operating-assumption calibration and market-comps work remain outstanding.**
 
 ## Files
 
 - [Reviewed DCF workbook](Signet_DCF_Reviewed_2026-11-10.xlsx) — refreshed market inputs, recalculated outputs, sensitivity tables and source notes.
-- [One-page valuation summary](Signet_DCF_OnePager_Reviewed_2026-11-10.pdf) — concise summary of valuation methods, assumptions and limitations.
-- [Detailed model review](../../docs/SIGNET_MODEL_REVIEW.md) — original model audit and outstanding diligence items.
+- [Detailed model review](../../docs/SIGNET_MODEL_REVIEW.md) — audit findings and remaining diligence items.
 
 ## Valuation snapshot
 
@@ -36,14 +35,14 @@ The two methods are deliberately shown separately. The 6.0x exit multiple is an 
 - Beta: 1.07 (5Y monthly market-data beta, checked 9 Nov 2026).
 - Base-case WACC: 9.63%; 0% target debt weight, consistent with no drawn financial debt reported at 1 Aug 2026.
 - Diluted shares: 39.3m; cash: US$526.8m; financial debt: nil, all at 1 Aug 2026.
-- Working capital, D&A, terminal growth and operating margins remain assumptions requiring additional historical calibration.
+- Working capital, D&A, terminal growth and forecast margins remain assumptions requiring additional historical calibration.
 - Operating leases remain within operating expenses and are not deducted from enterprise value.
 - Post-quarter buybacks and the announced US$125m ASR are not reflected in the 1 August cash/share bridge.
 - No trading-comparables or precedent-transaction analysis has been completed.
 
 ## Conclusion
 
-The model now has refreshed, sourced market inputs and recalculated formula outputs. It is a stronger portfolio case study, but it is not yet a fully diligence-ready investment recommendation. The next analytical work is to calibrate working capital and D&A to historical filings, reconcile post-quarter capital returns, and complete a defensible trading-comparables cross-check.
+The workbook now has refreshed, sourced market inputs and recalculated formula outputs. It is a stronger portfolio case study, but it is not yet a fully diligence-ready investment recommendation. The next analytical work is to calibrate working capital and D&A to historical filings, reconcile post-quarter capital returns, and complete a defensible trading-comparables cross-check.
 
 ## Sources
 
