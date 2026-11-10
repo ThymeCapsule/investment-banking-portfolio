@@ -1,8 +1,9 @@
 # NatWest Group - excess-return valuation
 
-## Deliverables
-- `NatWest_Excess_Return_Model_Reviewed.xlsx` - residual-income model, peer cross-check, sensitivities and notes.
-- `NatWest_Valuation_Summary_Reviewed.pdf` - one-page valuation summary.
+## Published deliverable
+- [NatWest valuation summary](NatWest_Valuation_Summary_Reviewed.pdf) - one-page valuation summary.
+
+The reviewed Excel workbook has been completed locally but is not yet published in this repository.
 
 ## Case question
 What value is implied by NatWest's tangible net asset value and the present value of expected returns above the cost of equity?
@@ -20,4 +21,4 @@ Q3 2026 TNAV is 359p, CET1 13.5%, RWAs £200.5bn, shares in issue 7,931m and nin
 ## Open diligence items
 This is a simplified residual-income model, not a full bank valuation. It does not explicitly forecast CET1 / RWAs, minimum capital requirements, distributions constrained by regulation, stress impairments or segment-level earnings. Peer P/TNAV is only a cross-check based on three external names; HSBC is a global bank and not a pure domestic UK peer.
 
-**Use:** educational modelling exercise only; not investment advice. See `../../docs/MODEL_REVIEW.md` and `../../docs/SOURCES.md`.
+**Use:** educational modelling exercise only; not investment advice. See [model review](../../docs/MODEL_REVIEW.md) and [source register](../../docs/SOURCES.md).
