@@ -14,7 +14,7 @@ A focused collection of finance case studies and valuation models prepared as an
 
 - **Signet Jewelers:** reviewed Excel workbook and one-page valuation summary.
 - **Northern Star Resources:** reviewed Excel workbook, one-page valuation summary and published methodology / diligence notes.
-- **NatWest Group:** one-page valuation summary and published methodology / diligence notes. The reviewed Excel workbook is still to be published.
+- **NatWest Group:** reviewed Excel workbook, one-page valuation summary and published methodology / diligence notes.
 
 ## Review and source documentation
 
