@@ -2,63 +2,89 @@
 
 ## Review status
 
-**Model status: Not yet investment-committee / interview ready.**
+**Reviewed DCF workbook published; not yet fully diligence-ready.**
 
-The workbook contains a DCF framework and produces an implied value. The output is not a defensible valuation conclusion until the following checks are completed and documented. Do not present the current per-share output as a target price.
+The original model used placeholder market inputs and had an incomplete source trail. The reviewed workbook now includes refreshed market inputs, recalculated formulas, dated source notes and explicit valuation-date caveats.
 
-## Priority review items
+## Refreshed valuation snapshot
+
+Using the base operating case:
+
+| Metric | Perpetuity growth | Exit multiple |
+|---|---:|---:|
+| WACC | 9.63% | 9.63% |
+| Terminal assumption | 2.0% perpetual growth | 6.0x EV/EBITDA |
+| Enterprise value | US$5,701m | US$4,864m |
+| Equity value | US$6,228m | US$5,391m |
+| Implied value per share | US$158.47 | US$137.16 |
+| Terminal value / EV | 63.3% | 54.3% |
+
+Reference market price: US$118.58 at the 9 November 2026 close. The DCF output implies 33.6% upside under the perpetuity-growth method. **This is not a synchronous comparison**: cash, debt and diluted shares are from 1 August 2026, while market price and risk inputs are from 6–9 November 2026.
+
+## Changes made
+
+- Updated reference share price to US$118.58 (9 Nov 2026 close).
+- Updated US 10-year risk-free rate to 4.86% (6 Nov 2026, FRED DGS10).
+- Updated US implied equity risk premium to 4.46% (Damodaran, Jan 2026).
+- Updated beta to 1.07 (5Y monthly market-data beta, checked 9 Nov 2026).
+- Set target debt weight to 0% in the base case, consistent with no drawn financial debt reported on the 1 Aug 2026 balance sheet; this remains subject to checking the debt and ABL notes.
+- Recalculated the workbook using a 9.63% CAPM-derived WACC.
+- Added explicit market-input dates and limitations to the Inputs and Notes tabs.
+- Recalculated the sensitivity tables.
+
+## Outstanding diligence
 
 ### 1. Enterprise value to equity value bridge
-- Reconcile cash, debt, leases and other debt-like items to the valuation date.
-- Confirm treatment of finance leases and operating leases is consistent between forecast cash flows, enterprise value and comparable-company metrics.
-- Reconcile basic and diluted shares outstanding to the latest filing.
-- Document any minority interests, pension deficits, investments or other non-operating assets and liabilities.
+- Confirm cash, financial debt and any debt-like items at a common valuation date.
+- Review the ABL and debt facilities note, even though no drawn financial debt is shown on the 1 Aug 2026 balance sheet.
+- Reconcile post-quarter share repurchases and the announced US$125m ASR before using a post-quarter valuation date.
+- Confirm diluted shares against the latest filing and any subsequent buyback settlement.
+- Lease treatment is currently consistent only if lease rent remains in operating expenses and lease liabilities are not separately deducted from EV.
 
 ### 2. Forecast drivers
-- Tie revenue, gross margin, operating expenses and working capital assumptions to historical performance and company guidance.
-- Separate recurring operating performance from restructuring, impairment and other non-recurring items.
-- Review stock-based compensation treatment and ensure cash-flow and share-count treatment are consistent.
-- Reconcile capital expenditure and depreciation assumptions with the store base, digital investment and operating footprint.
-- Identify any tariff refunds, litigation proceeds or other exceptional items separately; do not capitalise one-off benefits into normalised earnings.
+- Tie revenue, gross margin and SG&A to historical filings and current company guidance.
+- Separate recurring operating performance from restructuring, impairment, tariff refunds and other exceptional items.
+- Validate the US$30m tariff refund and US$30–40m credit-agreement benefit assumptions; avoid treating one-off or non-recurring items as sustainable terminal earnings.
+- Reconcile D&A and capex to historical levels and management guidance.
+- Replace the 10% change-in-sales working-capital assumption with a historical operating working-capital analysis that distinguishes inventory, trade payables, accrued liabilities and deferred revenue.
 
 ### 3. Terminal value
-- State the terminal growth rate and explain why it is sustainable.
-- Cross-check the implied terminal-year margins, reinvestment and return on invested capital.
-- Include a sensitivity table for WACC and terminal growth.
-- Compare the implied terminal multiple with a market-based exit-multiple cross-check.
+- The Gordon-growth method contributes 63.3% of enterprise value; this makes the valuation highly sensitive to WACC and terminal growth.
+- Support the 2.0% perpetual growth assumption with a long-run nominal growth rationale.
+- Cross-check terminal-year margins, reinvestment and return on invested capital.
+- The 6.0x exit EV/EBITDA multiple remains an analyst assumption and has not been supported by trading comparables.
 
 ### 4. Market and transaction cross-checks
-- Add a relevant trading comparables set with a clear peer-selection rationale.
-- Add precedent transactions only where transaction terms and financial metrics can be reliably sourced.
-- Explain differences in business mix, geography, leverage, growth and accounting treatment.
+- Build a peer set with a clear rationale and comparable business mix.
+- Calculate EV/EBITDA, EV/EBIT, P/E and relevant operating metrics using consistent dates and accounting definitions.
+- Add precedent transactions only where consideration, target financials and transaction terms can be sourced reliably.
 
-### 5. Presentation
-- Replace any placeholder share price or market data with a dated source.
-- Add a valuation summary showing enterprise value, equity value, diluted shares and implied value per share.
-- Include base, upside and downside cases, with the two or three assumptions that drive the valuation most clearly identified.
+## Source register
 
-## Required evidence before publication as a completed case
-
-- Latest annual report / 10-K and relevant quarterly filing.
-- Latest earnings release and company guidance.
-- Dated market data for share price, debt, cash and diluted shares.
-- Source register with URLs, dates accessed and the model line items each source supports.
-- Independent formula and reasonableness checks.
-
-## Current model output
-
-The workbook previously reviewed produced an indicative DCF output of approximately **US$142.80 per share** under its perpetuity-growth approach, while the one-page summary contained a **US$100 share-price placeholder**. These figures are retained here only as review context, not as a validated valuation or investment recommendation. Reconcile the workbook and summary after the model review.
+- Signet Q2 FY27 Form 10-Q, quarter ended 1 Aug 2026: https://www.sec.gov/Archives/edgar/data/832988/000083298826000229/sig-20260801.htm
+- Signet Q2 FY27 results release, 9 Sep 2026: https://www.signetjewelers.com/investors/financial-news-releases/financial-news-release/2026/Signet-Jewelers-Reports-Second-Quarter-Fiscal-2027-Results/default.aspx
+- US 10-year Treasury yield (FRED DGS10): https://fred.stlouisfed.org/series/DGS10
+- Damodaran historical implied ERP: https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histimpl.html
+- Market reference quote: https://finance.yahoo.com/quote/SIG/
 
 ## Sign-off checklist
 
-- [ ] Valuation date and market data refreshed
-- [ ] Historical financials tied to filings
-- [ ] Forecast drivers sourced and justified
-- [ ] Lease and debt treatment reconciled
-- [ ] Cash and non-operating items reconciled
-- [ ] Diluted share count verified
-- [ ] Terminal value and WACC sensitivities completed
-- [ ] Trading comparables cross-check completed
-- [ ] Downside case and key risks documented
-- [ ] Workbook formulas, units and sign conventions independently checked
-- [ ] One-page summary updated to match the workbook
+- [x] Market reference price updated and dated
+- [x] Risk-free rate, ERP and beta refreshed with source notes
+- [x] WACC recalculated
+- [x] Formula outputs and sensitivity tables recalculated
+- [x] Valuation-date mismatch disclosed
+- [ ] ABL / debt note independently reconciled
+- [ ] Post-quarter buybacks and ASR reconciled
+- [ ] Historical working capital calibrated
+- [ ] D&A and capex assumptions calibrated
+- [ ] Tariff refund and credit-agreement economics normalised
+- [ ] Trading comparables completed
+- [ ] Downside operating case independently reviewed
+- [ ] Final valuation conclusion and risks written
+
+## Conclusion
+
+The model is materially improved and suitable as a transparent work-in-progress portfolio example. It should not be described as a completed investment recommendation or a fully validated target price until the outstanding items above are closed.
+
+Independent educational portfolio work only. Not investment advice or a recommendation to transact in any security.
