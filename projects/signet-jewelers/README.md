@@ -16,7 +16,7 @@ Using the model's base operating case and refreshed market inputs:
 | Enterprise value | US$5,701m | US$4,864m |
 | Equity value | US$6,228m | US$5,391m |
 | Implied value per share | **US$158.47** | **US$137.16** |
-| Terminal value / EV | 63.3% | 54.3% |
+| Terminal value / EV | 63.3% | 57.0% |
 
 The reference share price is US$118.58 at the 9 November 2026 close. The perpetuity-growth output therefore implies 33.6% upside, but this is **not a same-date comparison**: the model's cash, debt and diluted-share inputs are from 1 August 2026, while the market price and risk inputs are from 6–9 November 2026.
 
