@@ -1,22 +1,43 @@
-# Signet Jewelers - DCF valuation
-
-## Deliverables
-- `Signet_DCF_Reviewed.xlsx` - DCF, assumptions, sensitivities and source notes.
-- `Signet_Valuation_Summary_Reviewed.pdf` - one-page valuation summary.
+# Signet Jewelers — Unlevered DCF Valuation
 
 ## Case question
-What is the indicative standalone value of Signet using an unlevered free-cash-flow DCF, and how sensitive is that output to discount rate, terminal growth and exit-multiple assumptions?
 
-## Current model outputs
-- Gordon-growth DCF: **US$155.83 per share**.
-- Exit-multiple case: **US$136.44 per share** using 6.0x FY32E EBITDA.
-- Reference market price: **US$118.58** (9 Nov 2026).
-- WACC: **9.782%**; terminal growth: **2.0%**.
+What is the indicative standalone equity value of Signet based on forecast unlevered free cash flow, and how sensitive is the result to WACC, terminal growth and exit EV/EBITDA?
 
-## What is grounded
-FY27 revenue and adjusted operating income forecasts are anchored to Signet's Q2 FY27 guidance. Q2 cash and diluted-share data use the 1 Aug 2026 reporting base date. The workbook adds back company-reported H1 FY27 free cash flow to avoid treating the full-year forecast as entirely future cash flow.
+## Deliverables
 
-## Open diligence items
-The model's FY27 EBIT-plus-D&A EBITDA proxy is below the company's adjusted EBITDA guidance lower end. The forward non-GAAP guidance is not reconciled to GAAP in the release, so the difference is flagged rather than forced. Working capital remains a 10% of revenue change assumption. Trading comps, precedents, ABL utilisation and post-quarter share repurchases still need a proper bridge.
+- [DCF workbook](Signet_DCF_Reviewed.xlsx)
+- [One-page valuation summary](Signet_Valuation_Summary_Reviewed.pdf)
+- [Detailed model review](../../docs/SIGNET_MODEL_REVIEW.md)
 
-**Use:** educational modelling exercise only; not investment advice or a price target. See `../../docs/MODEL_REVIEW.md` and `../../docs/SOURCES.md`.
+## Methodology
+
+The model forecasts unlevered free cash flow and applies a CAPM-derived WACC. It presents a Gordon-growth terminal value and an exit EV/EBITDA cross-check as separate methods. The 6.0x exit multiple is an analyst assumption, not a completed market-comparables conclusion.
+
+## Publication status
+
+**RECONCILIATION REQUIRED**
+
+The repository currently contains conflicting per-share outputs across the portfolio index, case-study page, detailed review note and separate workbook copies. The figures must be recalculated from the canonical workbook and tied to the PDF summary before a headline valuation is republished. Until that is completed, no per-share output or implied upside is presented here as the current model result.
+
+## Principal analytical issues
+
+1. **Forecast calibration:** reconcile FY27 adjusted EBITDA guidance to the model's EBIT-plus-D&A proxy; do not force an unsupported adjustment.
+2. **Working capital:** replace the flat 10% of revenue-change assumption with a historical, seasonally aware operating working-capital build.
+3. **Cash and debt bridge:** confirm cash, drawn debt, ABL utilisation, letters of credit and debt-like items at one valuation date.
+4. **Share count:** reconcile diluted shares and post-quarter repurchases / the announced ASR to the selected market date.
+5. **Lease policy:** state whether leases are included in operating costs or treated as debt, and apply the same convention in the DCF and peer set.
+6. **Terminal value:** support terminal growth, margins, reinvestment and terminal ROIC; show terminal value as a proportion of EV.
+7. **Market cross-check:** complete a consistently dated trading-comparables analysis. Include precedent transactions only where deal terms and target financials are sufficiently sourced.
+
+## Required release checks
+
+- [ ] One canonical workbook identified; duplicate copies removed or clearly archived.
+- [ ] DCF, summary PDF and portfolio index show identical outputs.
+- [ ] EV-to-equity bridge and diluted share count reconcile.
+- [ ] Historical working capital, D&A and capex are calibrated.
+- [ ] Comparable-company inputs use consistent dates and accounting definitions.
+- [ ] Base-case sensitivity centre ties to the DCF output.
+- [ ] Downside case and terminal-value dependence independently challenged.
+
+**Use:** educational modelling exercise only. This is not investment advice, a price target or a recommendation to buy or sell securities.
