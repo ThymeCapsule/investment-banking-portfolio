@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/ThymeCapsule/ThymeCapsule/main/assets/profile-banner.svg" width="100%" alt="ThymeCapsule financial research identity" />
-</p>
-
 # Investment Banking & Valuation Portfolio
 
 <sub>INDEPENDENT FINANCIAL RESEARCH · MODELLING · VALUATION</sub>
