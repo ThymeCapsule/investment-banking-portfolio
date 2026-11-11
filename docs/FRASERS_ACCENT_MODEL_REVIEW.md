@@ -1,17 +1,19 @@
 # Frasers Group / Accent Group — Transaction Model Review
 
 **Review date:** 11 November 2026  
-**Working file:** Frasers_Accent_Takeover_Model_v6_Rebuilt.xlsx  
+**Working file:** Frasers_Accent_Takeover_Model_v7_Review_Corrected.xlsx  
 **Status:** Rebuild required; not yet a complete integrated merger model.
 
 ## 1. What the current workbook does
 
-The current workbook contains an Accent standalone forecast and rent-adjusted FCFF DCF, three operating scenarios, offer-premium analysis, trading comparables, a limited precedent-transaction section, a valuation football field and an illustrative Frasers EPS accretion / dilution calculation.
+The workbook contains an Accent standalone forecast and rent-adjusted FCFF DCF, three operating scenarios, offer-premium analysis, trading comparables, a limited precedent-transaction section, a valuation football field and an illustrative Frasers EPS accretion / dilution calculation.
 
-After recalculation in LibreOffice on 11 November 2026:
+The v7 working file was recalculated in LibreOffice on 11 November 2026:
 - No formula-error values (#REF!, #DIV/0!, #VALUE!, #NAME?, #N/A) were detected.
 - The programmed historical tie-out, DCF sensitivity-centre, terminal FCFF, scenario-selection, share-count sanity, WACC-versus-growth and offer-price linkage checks returned PASS.
-- Seven source / methodology gates remained OPEN in the ModelChecks tab.
+- Seven source / methodology gates remained OPEN.
+- Four model-completeness gates were added and remain OPEN: sources & uses / funding waterfall; debt schedule; purchase-price allocation / pro forma balance sheet; integrated buyer / target forecasts.
+- The workbook now states “FORMULA CHECKS PASS - SOURCE / SCOPE GATES OPEN” rather than “ALL CHECKS PASS”.
 
 These are mechanical workbook checks only. They do not constitute an independent audit of every formula, source, accounting treatment or transaction assumption.
 
@@ -24,6 +26,7 @@ These are mechanical workbook checks only. They do not constitute an independent
 | Downside scenario | Approximately A$0.75/share |
 | Management-plan scenario | Approximately A$1.40/share |
 | Illustrative FY28 EPS accretion | Approximately 6.1% |
+| Open source / model-scope gates | 11 |
 
 The outputs depend on analyst assumptions for operating margins, growth, WACC, terminal growth, synergies and financing. They are not a fairness opinion, target price or investment recommendation. The accretion calculation is illustrative and does not yet incorporate a fully integrated pro forma balance sheet, purchase accounting or detailed debt schedule.
 
@@ -86,8 +89,6 @@ Separate revenue and cost synergies, gross and net synergies, run-rate and phase
 | 19 | Sensitivities | Offer price, funding mix, rates, synergies, WACC and terminal growth |
 | 20 | Sources | Source register, analyst assumptions and open diligence questions |
 
-The existing workbook tabs can be retained where useful, but they should be renamed and regrouped to match this architecture. Avoid duplicating the same assumption across sheets.
-
 ## 5. Release gates
 
 - [ ] Bidder's statement and offer terms independently reconciled.
@@ -101,7 +102,7 @@ The existing workbook tabs can be retained where useful, but they should be rena
 - [ ] Pro forma EPS and synergies reconciled.
 - [ ] DCF and comparable-company outputs tied to valuation summary.
 - [ ] Sensitivity centres tie to base case.
-- [ ] All source gates closed or clearly disclosed.
+- [ ] All source and model-scope gates closed or clearly disclosed.
 
 ## 6. Publication statement
 
