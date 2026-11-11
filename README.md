@@ -1,6 +1,10 @@
-# Investment Banking Portfolio
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ThymeCapsule/ThymeCapsule/main/assets/profile-banner.svg" width="100%" alt="ThymeCapsule financial research identity" />
+</p>
 
-A focused collection of finance case studies and valuation models prepared as an educational work sample. The emphasis is on traceable assumptions, transparent calculations, source discipline and clear disclosure of limitations.
+# Investment Banking & Valuation Portfolio
+
+A focused collection of company valuation and financial-modelling case studies. The work emphasises traceable assumptions, transparent calculations, source discipline and clear disclosure of limitations.
 
 ## Valuation case studies
 
@@ -13,15 +17,15 @@ A focused collection of finance case studies and valuation models prepared as an
 ## Published files
 
 - **Signet Jewelers:** reviewed Excel workbook and one-page valuation summary.
-- **Northern Star Resources:** reviewed Excel workbook, one-page valuation summary and published methodology / diligence notes.
-- **NatWest Group:** reviewed Excel workbook, one-page valuation summary and published methodology / diligence notes.
+- **Northern Star Resources:** reviewed Excel workbook, one-page valuation summary and methodology / diligence notes.
+- **NatWest Group:** reviewed Excel workbook, one-page valuation summary and methodology / diligence notes.
 
 ## Review and source documentation
 
 - [Model review and control log](docs/MODEL_REVIEW.md)
 - [Source register and market-data cut-off](docs/SOURCES.md)
 
-## Modelling standards applied
+## Modelling standards
 
 - Separate verified company disclosures, market observations and analyst assumptions.
 - Date-stamp market inputs and financial base dates; do not imply same-day alignment where it does not exist.
@@ -31,4 +35,4 @@ A focused collection of finance case studies and valuation models prepared as an
 
 ## Important notice
 
-These are educational portfolio exercises, not investment research, investment advice, price targets or recommendations. Inputs are snapshots as of 9-10 November 2026 and will become stale. Do not rely on them for a live transaction, credit decision or investment decision without refreshing the underlying filings, market data and assumptions.
+These are educational portfolio exercises, not investment research, investment advice, price targets or recommendations. Inputs are snapshots as of 9–10 November 2026 and will become stale. Do not rely on them for a live transaction, credit decision or investment decision without refreshing the underlying filings, market data and assumptions.
