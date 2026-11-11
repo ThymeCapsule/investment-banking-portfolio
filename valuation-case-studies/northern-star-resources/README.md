@@ -1,9 +1,9 @@
-# Northern Star Resources - forecast-period NAV
+# Northern Star Resources — forecast-period NAV
 
-## Published deliverable
-- [Northern Star valuation summary](Northern_Star_Valuation_Summary_Reviewed.pdf) - one-page valuation summary.
+## Published deliverables
 
-The reviewed Excel workbook has been completed locally but is not yet published in this repository.
+- [Reviewed Excel model](Northern_Star_Forecast_Period_NAV_Reviewed.xlsx)
+- [One-page valuation summary](Northern_Star_Valuation_Summary_Reviewed.pdf)
 
 ## Case question
 What is the discounted value of the explicit FY27-FY36 cash-flow scenario for Northern Star's existing operations and the separate Hemi development scenario?
