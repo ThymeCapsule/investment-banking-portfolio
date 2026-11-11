@@ -4,7 +4,11 @@
 
 # Investment Banking & Valuation Portfolio
 
+<sub>INDEPENDENT FINANCIAL RESEARCH · MODELLING · VALUATION</sub>
+
 A focused collection of company valuation and financial-modelling case studies. The work emphasises traceable assumptions, transparent calculations, source discipline and clear disclosure of limitations.
+
+<sub>01 / COVERAGE</sub>
 
 ## Valuation case studies
 
@@ -14,16 +18,22 @@ A focused collection of company valuation and financial-modelling case studies. 
 | [Northern Star Resources](valuation-case-studies/northern-star-resources/README.md) | Forecast-period asset NAV | A$13.89/share | Explicit forecast ends FY36; remaining reserves are not valued, so this is partial NAV only. |
 | [NatWest Group](valuation-case-studies/natwest-group/README.md) | Excess-return / residual-income | 532.6p/share | Simplified bank model without explicit regulatory capital, RWA and credit-risk projections. |
 
+<sub>02 / DELIVERABLES</sub>
+
 ## Published files
 
 - **Signet Jewelers:** reviewed Excel workbook and one-page valuation summary.
 - **Northern Star Resources:** reviewed Excel workbook, one-page valuation summary and methodology / diligence notes.
 - **NatWest Group:** reviewed Excel workbook, one-page valuation summary and methodology / diligence notes.
 
+<sub>03 / GOVERNANCE & SOURCES</sub>
+
 ## Review and source documentation
 
 - [Model review and control log](docs/MODEL_REVIEW.md)
 - [Source register and market-data cut-off](docs/SOURCES.md)
+
+<sub>04 / ANALYTICAL STANDARDS</sub>
 
 ## Modelling standards
 
@@ -32,6 +42,8 @@ A focused collection of company valuation and financial-modelling case studies. 
 - Tie central sensitivity-table outputs back to the model base case.
 - Exclude unsupported terminal values and weak statistical work rather than presenting them as robust evidence.
 - State where a simplified model omits operational, regulatory or accounting detail.
+
+<sub>05 / DISCLOSURES</sub>
 
 ## Important notice
 
