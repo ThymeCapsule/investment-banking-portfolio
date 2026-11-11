@@ -1,46 +1,39 @@
 # Investment Banking & Valuation Portfolio
 
-<sub>INDEPENDENT FINANCIAL RESEARCH · MODELLING · VALUATION</sub>
+<sub>INDEPENDENT FINANCIAL RESEARCH · MODELLING · VALUATION · TRANSACTION ANALYSIS</sub>
 
-A focused collection of company valuation and financial-modelling case studies. The work emphasises traceable assumptions, transparent calculations, source discipline and clear disclosure of limitations.
+A collection of company valuation and transaction-modelling exercises. Each case separates reported facts, market observations and analyst assumptions, and states what has and has not been validated.
 
-<sub>01 / COVERAGE</sub>
+## Portfolio overview
 
-## Valuation case studies
+| Case | Framework | Published status | Principal limitation |
+|---|---|---|---|
+| [Signet Jewelers](valuation-case-studies/signet-jewelers/README.md) | Unlevered DCF | **Reconciliation required** | Published per-share outputs differ across the workbook, summary and review notes. No headline value is presented until the files tie. |
+| [Northern Star Resources](valuation-case-studies/northern-star-resources/README.md) | Forecast-period asset NAV | **Partial analysis** · A$13.89/share | Explicit FY27–FY36 forecast only; no residual value and material reserve-life cash flows fall outside the forecast horizon. |
+| [NatWest Group](valuation-case-studies/natwest-group/README.md) | Excess-return / residual-income | **Simplified analysis** · 532.6p/share | Regulatory capital, RWA, through-cycle impairments and distribution constraints are not fully forecast. |
+| [Frasers Group / Accent Group](transaction-case-studies/frasers-accent/README.md) | M&A / takeover analysis | **Model rebuild in progress** | Current workbook is a valuation and EPS-accretion workbench, not yet a complete integrated merger model. |
 
-| Company | Method | Current model output | Primary limitation |
-|---|---|---:|---|
-| [Signet Jewelers](valuation-case-studies/signet-jewelers/README.md) | Unlevered DCF | US$155.83/share (Gordon growth); US$136.44/share (6.0x exit case) | Adjusted EBITDA guide bridge, working capital, capital returns and market-date alignment require further work. |
-| [Northern Star Resources](valuation-case-studies/northern-star-resources/README.md) | Forecast-period asset NAV | A$13.89/share | Explicit forecast ends FY36; remaining reserves are not valued, so this is partial NAV only. |
-| [NatWest Group](valuation-case-studies/natwest-group/README.md) | Excess-return / residual-income | 532.6p/share | Simplified bank model without explicit regulatory capital, RWA and credit-risk projections. |
+## Analytical approach
 
-<sub>02 / DELIVERABLES</sub>
+The work is organised around a decision question, a traceable model and a conclusion proportionate to the evidence. The standard for each published model is set out in [Modelling Standards](docs/MODELLING_STANDARDS.md).
 
-## Published files
-
-- **Signet Jewelers:** reviewed Excel workbook and one-page valuation summary.
-- **Northern Star Resources:** reviewed Excel workbook, one-page valuation summary and methodology / diligence notes.
-- **NatWest Group:** reviewed Excel workbook, one-page valuation summary and methodology / diligence notes.
-
-<sub>03 / GOVERNANCE & SOURCES</sub>
+- Separate source data, analyst assumptions, calculations and outputs.
+- Date-stamp valuation inputs and identify mismatched reporting dates.
+- Build short, traceable formulas and link schedules into outputs.
+- Reconcile sensitivity-table base cases to the main model.
+- Include model checks and a visible open-items register.
+- Do not describe a partial valuation as a target price or a simplified model as a completed transaction model.
 
 ## Review and source documentation
 
-- [Model review and control log](docs/MODEL_REVIEW.md)
+- [Model review and open-items register](docs/MODEL_REVIEW.md)
+- [Signet DCF review](docs/SIGNET_MODEL_REVIEW.md)
 - [Source register and market-data cut-off](docs/SOURCES.md)
+- [Modelling Standards](docs/MODELLING_STANDARDS.md)
+- [Case Study Template](docs/CASE_STUDY_TEMPLATE.md)
 
-<sub>04 / ANALYTICAL STANDARDS</sub>
+## Data cut-off and use
 
-## Modelling standards
+Market references in the current valuation cases are principally dated 9 November 2026, with individual inputs carrying their own dates in the workbooks. These are snapshots, not live data. Refresh company filings, share counts, market prices, FX, rates and transaction terms before reuse.
 
-- Separate verified company disclosures, market observations and analyst assumptions.
-- Date-stamp market inputs and financial base dates; do not imply same-day alignment where it does not exist.
-- Tie central sensitivity-table outputs back to the model base case.
-- Exclude unsupported terminal values and weak statistical work rather than presenting them as robust evidence.
-- State where a simplified model omits operational, regulatory or accounting detail.
-
-<sub>05 / DISCLOSURES</sub>
-
-## Important notice
-
-These are educational portfolio exercises, not investment research, investment advice, price targets or recommendations. Inputs are snapshots as of 9–10 November 2026 and will become stale. Do not rely on them for a live transaction, credit decision or investment decision without refreshing the underlying filings, market data and assumptions.
+Independent educational portfolio work only. These projects are not investment research, investment advice, price targets or recommendations, and do not represent the views of any employer or client.
