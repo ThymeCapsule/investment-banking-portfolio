@@ -28,13 +28,19 @@ The portfolio distinguishes completed analytical work from work in development. 
 | Merger modelling | Frasers / Accent rebuild scope | Sources & uses, debt financing, purchase accounting and integrated pro forma statements remain to be built. |
 | Capital structure and financing | Fixed-income and bank analysis | Research foundation; no claim of live financing execution. |
 
-## Priority development plan
+## Investment banking development roadmap
 
-1. Complete and independently check the Frasers / Accent transaction model.
-2. Reconcile the Signet workbook, summary PDF and case-study outputs.
-3. Expand the NatWest model into an integrated earnings and regulatory-capital forecast.
-4. Extend Northern Star into an asset-level reserve-life NAV with explicit technical and fiscal schedules.
-5. Add a fully sourced trading-comparables screen and a defensible precedent-transactions analysis.
+The following five deliverables are the portfolio's priority technical build programme. They are **planned or in development**, not represented as completed work. Each project will be published only after its assumptions, sources, calculations and checks can be independently reviewed.
+
+| Priority | Deliverable | Evidence it should demonstrate | Status |
+|---:|---|---|---|
+| 1 | [Frasers–Accent integrated merger model](docs/ANALYST_DEVELOPMENT_ROADMAP.md#1-frasersaccent-integrated-merger-model) | M&A mechanics: sources & uses, financing, purchase accounting, pro forma statements, synergies and accretion / dilution | **In progress** |
+| 2 | [Trading comparables and precedent transactions](docs/ANALYST_DEVELOPMENT_ROADMAP.md#2-trading-comparables-and-precedent-transactions) | Valuation judgement: peer / deal selection, metric normalisation, multiples and valuation ranges | **Planned** |
+| 3 | [Three-statement financial model](docs/ANALYST_DEVELOPMENT_ROADMAP.md#3-three-statement-financial-model) | Modelling fundamentals: linked income statement, balance sheet, cash flow and supporting schedules | **Planned** |
+| 4 | [LBO model](docs/ANALYST_DEVELOPMENT_ROADMAP.md#4-leveraged-buyout-lbo-model) | Leveraged finance: debt structure, cash sweep, returns, sensitivities and downside protection | **Planned** |
+| 5 | [Investment committee / transaction presentation](docs/ANALYST_DEVELOPMENT_ROADMAP.md#5-investment-committee--transaction-presentation) | Commercial judgement: thesis, valuation, transaction rationale, risks, sensitivities and recommendation | **Planned** |
+
+**Build sequence:** establish reliable historical financials and operating forecasts; complete the integrated transaction model; build standalone valuation evidence; then develop the LBO and decision presentation. The roadmap defines the target standard and does not imply that these deliverables already exist.
 
 ## Analytical approach
 
@@ -50,6 +56,7 @@ The work is organised around a decision question, a traceable model and a conclu
 ## Investment banking workbench
 
 - [Investment Banking Track — scope, evidence and development priorities](docs/INVESTMENT_BANKING_TRACK.md)
+- [Five-Deliverable Analyst Development Roadmap](docs/ANALYST_DEVELOPMENT_ROADMAP.md)
 - [Frasers / Accent transaction case](transaction-case-studies/frasers-accent/README.md)
 - [Frasers / Accent model review](docs/FRASERS_ACCENT_MODEL_REVIEW.md)
 
