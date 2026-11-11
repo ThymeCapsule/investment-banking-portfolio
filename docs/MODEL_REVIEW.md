@@ -9,7 +9,7 @@
 | Signet Jewelers | Conflicting per-share outputs across published files | **Hold headline output** | Recalculate the canonical workbook and reconcile workbook, PDF, README and review note. |
 | Northern Star Resources | A$13.89/share | **Partial NAV** | Explicit FY27–FY36 horizon omits reserve cash flows beyond FY36; mine schedules and asset-level fiscal items need further work. |
 | NatWest Group | 532.6p/share | **Simplified residual-income model** | No integrated regulatory-capital, RWA and through-cycle credit-loss forecast. |
-| Frasers / Accent | See local working workbook; not yet published in this repository | **Transaction model in rebuild** | Source gates remain open; not yet a complete integrated merger model. |
+| Frasers / Accent | Local working workbook; not yet published in this repository | **Transaction model in rebuild** | Source gates and model-completeness gates remain open; not yet a complete integrated merger model. |
 
 ## Signet Jewelers
 
@@ -29,9 +29,9 @@ The 532.6p/share output is based on a simplified residual-income framework. Cost
 
 ## Frasers Group / Accent Group
 
-A local working workbook was recalculated in LibreOffice on 11 November 2026. No formula-error values (#REF!, #DIV/0!, #VALUE!, #NAME?, #N/A) were detected after recalculation. The workbook's existing formula checks passed, but seven source / methodology gates remained open. This is a mechanical check, not a full formula, accounting or transaction-structure audit.
+The local working workbook was updated to v7 and recalculated in LibreOffice on 11 November 2026. No formula-error values (#REF!, #DIV/0!, #VALUE!, #NAME?, #N/A) were detected after recalculation. The programmed formula checks passed. Seven source / methodology gates and four model-completeness gates remain OPEN, for eleven open gates in total. The workbook status now explicitly reads “FORMULA CHECKS PASS - SOURCE / SCOPE GATES OPEN”; this is not a claim that all model checks are complete.
 
-The workbook currently produces a base-case DCF value of approximately A$1.01/share, a scenario range of approximately A$0.75–A$1.40/share and illustrative FY28 EPS accretion of approximately 6.1%. These are model outputs under analyst assumptions, not validated conclusions. Key open items include:
+The v7 workbook currently produces a base-case DCF value of approximately A$1.01/share, a scenario range of approximately A$0.75–A$1.40/share and illustrative FY28 EPS accretion of approximately 6.1%. These are model outputs under analyst assumptions, not validated conclusions. Key open items include:
 
 - Reconcile the A$315.8m headline maximum consideration with the A$301.3m implied by 463.5m shares at A$0.65; confirm offer mechanics in the bidder's statement.
 - Refresh Frasers' and Accent's current holdings, share counts, share prices and FX.
@@ -39,7 +39,7 @@ The workbook currently produces a base-case DCF value of approximately A$1.01/sh
 - Support operating scenarios and synergies; run a zero-synergy downside.
 - Rebuild peer and precedent analysis on consistent dates and accounting definitions.
 - Confirm lease treatment throughout DCF, enterprise-value bridge and comparables.
-- Build full sources & uses, financing / debt schedule, purchase-price allocation and pro forma balance sheet before calling this a merger model.
+- Build full sources & uses, debt schedule, purchase-price allocation, pro forma balance sheet and integrated buyer / target forecasts.
 
 The detailed transaction-model review is in [Frasers / Accent Model Review](FRASERS_ACCENT_MODEL_REVIEW.md).
 
