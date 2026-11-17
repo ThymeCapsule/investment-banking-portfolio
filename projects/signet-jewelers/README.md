@@ -1,10 +1,9 @@
-# Signet Jewelers — Legacy Project Note
+# Signet Jewelers — Legacy Folder Pointer
 
-This folder contains an earlier working copy of the Signet DCF materials. It is retained for version history and is not the canonical publication location.
+The current canonical case study and workbook are maintained here:
 
-Use the current case-study page instead:
 [Signet Jewelers — Unlevered DCF Valuation](../../valuation-case-studies/signet-jewelers/README.md)
 
-The repository previously contained different workbook copies and inconsistent per-share outputs. Do not rely on the figures in this legacy folder until the canonical workbook, summary PDF and portfolio index have been reconciled.
+The current model is [Signet_DCF_Analyst_v3.xlsx](../../valuation-case-studies/signet-jewelers/Signet_DCF_Analyst_v3.xlsx). This legacy folder is retained only as a navigation pointer; it does not contain a current model deliverable.
 
 See [Portfolio Model Review](../../docs/MODEL_REVIEW.md) and [Detailed Signet Review](../../docs/SIGNET_MODEL_REVIEW.md).
