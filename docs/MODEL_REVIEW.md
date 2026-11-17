@@ -8,7 +8,7 @@
 |---|---:|---|---|
 | Signet Jewelers | US$140.33/share Gordon; US$121.21/share exit | Core bridges PASS; guidance midpoint diagnostic REVIEW | H2 working capital, guidance reconciliation, capital structure and terminal-value dependence require further diligence. |
 | Northern Star Resources | A$13.89/share forecast-period NAV | All displayed checks PASS | FY27–FY36 finite horizon; reserve cash flows beyond FY36 excluded; Hemi and asset-level schedules remain scenario-based. |
-| NatWest Group | 556.2p/share excess-return value | All displayed checks PASS | Simplified CET1/RWA/distribution schedule; not a full regulatory-capital or through-cycle impairment model. |
+| NatWest Group | No updated integrated-model valuation published | Mechanical workbook checks only; economic calibration remains open | Analyst-proxy PD/LGD and stage behaviour; no fully calibrated through-cycle loss rate or exposure-level Basel 3.1 rebuild. |
 | Frasers / Accent | See transaction case page | Separate workbook review | Valuation and EPS-accretion workbench remains short of a complete integrated merger model. |
 
 ## Signet Jewelers
@@ -29,11 +29,13 @@ Do not describe this as a full reserve-life NAV, full fair-value conclusion or p
 
 ## NatWest Group
 
-The canonical workbook is [NatWest_Excess_Return_Analyst_v3.xlsx](../valuation-case-studies/natwest-group/NatWest_Excess_Return_Analyst_v3.xlsx). It reports 556.2p/share against a 597.6p reference share price dated 9 November 2026, with 359p TNAV/share and an 11.17% cost of equity.
+The canonical workbook is [NatWest_Full_Reg_Capital_Through_Cycle_Credit_Model_v3_Audit_Checked.xlsx](../valuation-case-studies/natwest-group/NatWest_Full_Reg_Capital_Through_Cycle_Credit_Model_v3_Audit_Checked.xlsx). The case methodology and scope are documented in the [NatWest case page](../valuation-case-studies/natwest-group/README.md).
 
-The workbook now links an explicit analyst operating forecast to a simplified CET1 / RWA / distributions schedule and residual-income valuation. Displayed checks pass for cost of equity, CET1 capital bridge and Year-1 floor, excess-return PV, equity scaling, TNAV path, operating PBT and net-income bridges, RoTE link and TNAV roll-forwards.
+The expanded workbook links the operating forecast and excess-return framework to IFRS 9 credit scenarios, an RWA forecast, regulatory-capital schedules, distribution constraints and analyst stress overlays. Reported starting points are anchored to NatWest's Q3 2026 Pillar 3 disclosures; FY25 Annual Report data inform the stage / segment credit reference set.
 
-The model remains simplified. It does not fully project regulatory capital requirements, risk-weighted assets, through-cycle impairments, minimum buffers or regulatory distribution constraints. The peer P/TNAV cross-check has three external references and is not a robust statistical or fully like-for-like peer analysis.
+Do not carry forward the prior 556.2p/share output as the integrated-model valuation. No new per-share value is published pending recalculation and review of the updated linked forecasts.
+
+Material open items are granular PD/LGD calibration, Stage 1/2/3 migration and cure behaviour, default inflows and recoveries, historical through-cycle credit-cost calibration, bottom-up Basel 3.1 RWA and output-floor treatment, firm-specific supervisory requirements, and instrument-level AT1 / Tier 2 maturity and eligibility schedules. The model is an external analyst framework, not NatWest's internal IFRS 9 / ICAAP model or a PRA supervisory stress test.
 
 ## Frasers Group / Accent Group
 
