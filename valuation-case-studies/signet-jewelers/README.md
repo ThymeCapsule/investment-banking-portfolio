@@ -2,42 +2,50 @@
 
 ## Case question
 
-What is the indicative standalone equity value of Signet based on forecast unlevered free cash flow, and how sensitive is the result to WACC, terminal growth and exit EV/EBITDA?
+What indicative standalone equity value is implied by forecast unlevered free cash flow, and how sensitive is that value to WACC, terminal growth and the exit EV/EBITDA assumption?
 
-## Deliverables
+## Canonical deliverable
 
-- [DCF workbook](Signet_DCF_Reviewed.xlsx)
-- [One-page valuation summary](Signet_Valuation_Summary_Reviewed.pdf)
-- [Detailed model review](../../docs/SIGNET_MODEL_REVIEW.md)
+- [Signet DCF — Analyst v3 workbook](Signet_DCF_Analyst_v3.xlsx)
+- [Detailed DCF review and open items](../../docs/SIGNET_MODEL_REVIEW.md)
 
-## Methodology
+The Analyst v3 workbook is the canonical file. Earlier workbook copies and the previous PDF summary have been removed from this case folder so that the repository has one current source of model outputs. No separate memo or PDF summary is published.
 
-The model forecasts unlevered free cash flow and applies a CAPM-derived WACC. It presents a Gordon-growth terminal value and an exit EV/EBITDA cross-check as separate methods. The 6.0x exit multiple is an analyst assumption, not a completed market-comparables conclusion.
+## Model snapshot
 
-## Publication status
+| Metric | Gordon growth | Exit multiple |
+|---|---:|---:|
+| Enterprise value | US$4,988.0m | US$4,236.6m |
+| Equity value | US$5,514.8m | US$4,763.4m |
+| Implied value per share | **US$140.33** | **US$121.21** |
+| Reference share price (9 Nov 2026) | US$118.58 | US$118.58 |
+| Implied difference to reference | 18.3% | 2.2% |
+| Terminal value / EV | 69.5% | — |
 
-**RECONCILIATION REQUIRED**
+Key assumptions: 9.782% WACC, 2.0% Gordon-growth rate and 6.0x exit EV/EBITDA. The exit multiple is an analyst assumption and is not derived from a completed trading-comparables analysis.
 
-The repository currently contains conflicting per-share outputs across the portfolio index, case-study page, detailed review note and separate workbook copies. The figures must be recalculated from the canonical workbook and tied to the PDF summary before a headline valuation is republished. Until that is completed, no per-share output or implied upside is presented here as the current model result.
+## Methodology and model architecture
 
-## Principal analytical issues
+The workbook contains a model guide, FY27 H2 stub, inputs, DCF, one-page output, WACC / terminal-growth and exit-multiple sensitivities, source notes, guidance bridge, model checks and audit log.
 
-1. **Forecast calibration:** reconcile FY27 adjusted EBITDA guidance to the model's EBIT-plus-D&A proxy; do not force an unsupported adjustment.
-2. **Working capital:** replace the flat 10% of revenue-change assumption with a historical, seasonally aware operating working-capital build.
-3. **Cash and debt bridge:** confirm cash, drawn debt, ABL utilisation, letters of credit and debt-like items at one valuation date.
-4. **Share count:** reconcile diluted shares and post-quarter repurchases / the announced ASR to the selected market date.
-5. **Lease policy:** state whether leases are included in operating costs or treated as debt, and apply the same convention in the DCF and peer set.
-6. **Terminal value:** support terminal growth, margins, reinvestment and terminal ROIC; show terminal value as a proportion of EV.
-7. **Market cross-check:** complete a consistently dated trading-comparables analysis. Include precedent transactions only where deal terms and target financials are sufficiently sourced.
+The H2 stub bridges FY27 company guidance to reported year-to-date results. H2 unlevered free cash flow is linked into the DCF rather than relying on a full-year proxy. H2 working capital is set to zero in the base case and separately sensitised; this is an assumption requiring further diligence.
 
-## Required release checks
+## Model checks and open items
 
-- [ ] One canonical workbook identified; duplicate copies removed or clearly archived.
-- [ ] DCF, summary PDF and portfolio index show identical outputs.
-- [ ] EV-to-equity bridge and diluted share count reconcile.
-- [ ] Historical working capital, D&A and capex are calibrated.
-- [ ] Comparable-company inputs use consistent dates and accounting definitions.
-- [ ] Base-case sensitivity centre ties to the DCF output.
-- [ ] Downside case and terminal-value dependence independently challenged.
+The workbook's mechanical checks pass for the revenue, EBITDA arithmetic, DCF enterprise-value bridge, equity-value bridge, H2 revenue / EBIT / capex bridges, stub FCF tie and cash bridge. The guidance midpoint diagnostic remains **REVIEW**: the model's adjusted EBIT plus annualised H1 D&A proxy is US$55.4m below company adjusted EBITDA guidance. This is a forecast diagnostic, not a formula error.
 
-**Use:** educational modelling exercise only. This is not investment advice, a price target or a recommendation to buy or sell securities.
+Principal outstanding items:
+
+1. Reconcile company adjusted EBITDA guidance to the EBIT-plus-D&A proxy without forcing an unsupported adjustment.
+2. Validate the H2 working-capital assumption using historical seasonality and operating balance-sheet drivers.
+3. Confirm cash, drawn debt, ABL utilisation, letters of credit and debt-like items at a common valuation date.
+4. Reconcile diluted shares and post-quarter repurchases / ASR to the chosen market date.
+5. Confirm lease treatment consistently across the DCF and any future peer analysis.
+6. Challenge terminal margins, reinvestment, terminal ROIC and the high terminal-value contribution.
+7. Complete a consistently dated trading-comparables analysis before treating the exit multiple as market-supported.
+
+## Interpretation
+
+This is an analyst-built DCF case study, not a full three-statement forecast, completed trading-comparables analysis, diligence-ready valuation or proprietary investment-bank template. Market price and risk inputs are dated 6–9 November 2026 while cash, debt and share-count inputs are based on 1 August 2026; the date mismatch is disclosed in the workbook.
+
+**Use:** independent educational modelling only. Not investment advice, a price target or a recommendation to buy or sell securities.
