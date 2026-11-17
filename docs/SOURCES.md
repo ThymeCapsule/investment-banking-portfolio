@@ -21,6 +21,9 @@ Market references are set to 9 November 2026 unless the relevant workbook states
 
 ## NatWest Group
 - Q3 2026 results: https://www.natwestgroup.com/news-and-insights/latest-stories/2026/q3-2026-natwest-group-results.html
+- Q3 2026 Pillar 3 report (30 September 2026): https://investors.natwestgroup.com/~/media/Files/R/RBS-IR-V2/results-center/30102026/nwg-q3-2026-pillar-3-report.pdf
+- FY25 Annual Report and Accounts: https://investors.natwestgroup.com/~/media/Files/R/RBS-IR-V2/results-center/13022026/nwg-annual-report-and-accounts-2025.pdf
+- PRA Basel 3.1 final rules policy statement (January 2026): https://www.bankofengland.co.uk/prudential-regulation/publication/2026/january/implementation-of-the-basel-3-1-final-rules-policy-statement
 - Results centre: https://investors.natwestgroup.com/results-centre
 - Bank of England yield curve database: https://www.bankofengland.co.uk/boeapps/database/
 - Damodaran country equity-risk premia: https://pages.stern.nyu.edu/adamodar/New_Home_Page/datafile/ctrypremtable.htm
