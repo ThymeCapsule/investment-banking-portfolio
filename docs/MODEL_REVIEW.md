@@ -1,50 +1,46 @@
 # Portfolio Model Review and Open-Items Register
 
-**Review basis:** documentation and repository consistency review, 11 November 2026. This is not an independent audit of every formula in the three published valuation workbooks. Existing workbook checks are described as recorded by the project; they should be rerun after any workbook change.
+**Review basis:** repository and workbook review of the Analyst v3 valuation workbooks, 17 November 2026. Mechanical checks are reported as displayed in each workbook. A PASS means the specified arithmetic test passes; it is not independent verification of every input, assumption or methodology.
 
 ## Portfolio-level status
 
-| Case | Current output shown in repository | Review status | Release blocker |
+| Case | Analyst v3 output | Mechanical check status | Key remaining limitation |
 |---|---:|---|---|
-| Signet Jewelers | Conflicting per-share outputs across published files | **Hold headline output** | Recalculate the canonical workbook and reconcile workbook, PDF, README and review note. |
-| Northern Star Resources | A$13.89/share | **Partial NAV** | Explicit FY27–FY36 horizon omits reserve cash flows beyond FY36; mine schedules and asset-level fiscal items need further work. |
-| NatWest Group | 532.6p/share | **Simplified residual-income model** | No integrated regulatory-capital, RWA and through-cycle credit-loss forecast. |
-| Frasers / Accent | Local working workbook; not yet published in this repository | **Transaction model in rebuild** | Source gates and model-completeness gates remain open; not yet a complete integrated merger model. |
+| Signet Jewelers | US$140.33/share Gordon; US$121.21/share exit | Core bridges PASS; guidance midpoint diagnostic REVIEW | H2 working capital, guidance reconciliation, capital structure and terminal-value dependence require further diligence. |
+| Northern Star Resources | A$13.89/share forecast-period NAV | All displayed checks PASS | FY27–FY36 finite horizon; reserve cash flows beyond FY36 excluded; Hemi and asset-level schedules remain scenario-based. |
+| NatWest Group | 556.2p/share excess-return value | All displayed checks PASS | Simplified CET1/RWA/distribution schedule; not a full regulatory-capital or through-cycle impairment model. |
+| Frasers / Accent | See transaction case page | Separate workbook review | Valuation and EPS-accretion workbench remains short of a complete integrated merger model. |
 
 ## Signet Jewelers
 
-The portfolio index and model review note show US$155.83 / US$136.44 per share, while the case-study README and separate project workbook copy show US$158.47 / US$137.16. The repository contains multiple workbook copies. The discrepancy is unresolved; neither set of figures should be treated as the final published output until the canonical file is identified and recalculated.
+The canonical workbook is [Signet_DCF_Analyst_v3.xlsx](../valuation-case-studies/signet-jewelers/Signet_DCF_Analyst_v3.xlsx). Its summary sheet reports US$140.33/share under Gordon growth and US$121.21/share under a 6.0x exit multiple, against a US$118.58 reference share price dated 9 November 2026. WACC is 9.782%, terminal growth is 2.0%, and Gordon terminal value is 69.5% of enterprise value.
 
-Other open items include FY27 EBITDA guidance reconciliation, seasonally normalised working capital, D&A and capex calibration, ABL utilisation / letters of credit, post-quarter buybacks and ASR, lease treatment, and trading comparables.
+The model's revenue, EBITDA arithmetic, DCF EV, equity bridge, H2 revenue / adjusted EBIT / capex, stub FCF and cash bridge checks pass. The guidance midpoint diagnostic is REVIEW, with a US$55.4m gap between the adjusted EBIT plus annualised H1 D&A proxy and company adjusted EBITDA guidance. This is a forecast diagnostic, not a formula error.
+
+Open items include guidance reconciliation, seasonally calibrated H2 working capital, ABL / debt-like items, post-quarter buybacks and ASR, diluted shares, lease treatment, terminal assumptions and trading comparables. The valuation-date mismatch between 1 August 2026 financial inputs and 6–9 November market / risk references remains disclosed.
 
 ## Northern Star Resources
 
-The current canonical case describes a finite FY27–FY36 forecast with zero residual value and A$13.89/share forecast-period NAV. The result excludes reserve tonnes and potential cash flows outside the modelled horizon. The model is not reserve-engineered. Production, costs, Hemi ramp-up, royalties, tax and closure costs require asset-level validation.
+The canonical workbook is [Northern_Star_NAV_Analyst_v3.xlsx](../valuation-case-studies/northern-star-resources/Northern_Star_NAV_Analyst_v3.xlsx). It reports A$19.93bn asset NAV, A$19.77bn equity NAV and A$13.89/share forecast-period NAV. The explicit horizon is FY27–FY36 with zero residual value beyond FY36. The reserve reconciliation identifies approximately 6.436Moz of existing-operations reserves and 2.658Moz of Hemi reserves remaining beyond the modelled horizon.
 
-Do not describe the current output as a full NAV, fair value or target price.
+Displayed checks pass for the asset and equity NAV bridges, per-share bridge, reserve reconciliations, FY27 production guidance and reserve total. The main limitation is scope: the model excludes value from reserve cash flows beyond FY36. FY28–FY36 operating assumptions and Hemi development timing / ramp-up are analyst scenarios. Asset-level production, royalties, tax, closure costs and capex require further validation.
+
+Do not describe this as a full reserve-life NAV, full fair-value conclusion or price target.
 
 ## NatWest Group
 
-The 532.6p/share output is based on a simplified residual-income framework. Cost of equity, terminal RoTE and tangible-equity growth are assumptions. The model does not fully project CET1, RWA, regulatory buffers, credit impairments through a cycle or distribution capacity. The peer P/TNAV sample is limited and not fully like-for-like.
+The canonical workbook is [NatWest_Excess_Return_Analyst_v3.xlsx](../valuation-case-studies/natwest-group/NatWest_Excess_Return_Analyst_v3.xlsx). It reports 556.2p/share against a 597.6p reference share price dated 9 November 2026, with 359p TNAV/share and an 11.17% cost of equity.
+
+The workbook now links an explicit analyst operating forecast to a simplified CET1 / RWA / distributions schedule and residual-income valuation. Displayed checks pass for cost of equity, CET1 capital bridge and Year-1 floor, excess-return PV, equity scaling, TNAV path, operating PBT and net-income bridges, RoTE link and TNAV roll-forwards.
+
+The model remains simplified. It does not fully project regulatory capital requirements, risk-weighted assets, through-cycle impairments, minimum buffers or regulatory distribution constraints. The peer P/TNAV cross-check has three external references and is not a robust statistical or fully like-for-like peer analysis.
 
 ## Frasers Group / Accent Group
 
-The local working workbook was updated to v7 and recalculated in LibreOffice on 11 November 2026. No formula-error values (#REF!, #DIV/0!, #VALUE!, #NAME?, #N/A) were detected after recalculation. The programmed formula checks passed. Seven source / methodology gates and four model-completeness gates remain OPEN, for eleven open gates in total. The workbook status now explicitly reads “FORMULA CHECKS PASS - SOURCE / SCOPE GATES OPEN”; this is not a claim that all model checks are complete.
-
-The v7 workbook currently produces a base-case DCF value of approximately A$1.01/share, a scenario range of approximately A$0.75–A$1.40/share and illustrative FY28 EPS accretion of approximately 6.1%. These are model outputs under analyst assumptions, not validated conclusions. Key open items include:
-
-- Reconcile the A$315.8m headline maximum consideration with the A$301.3m implied by 463.5m shares at A$0.65; confirm offer mechanics in the bidder's statement.
-- Refresh Frasers' and Accent's current holdings, share counts, share prices and FX.
-- Revalidate risk-free rate, ERP, beta, cost of debt and capital structure.
-- Support operating scenarios and synergies; run a zero-synergy downside.
-- Rebuild peer and precedent analysis on consistent dates and accounting definitions.
-- Confirm lease treatment throughout DCF, enterprise-value bridge and comparables.
-- Build full sources & uses, debt schedule, purchase-price allocation, pro forma balance sheet and integrated buyer / target forecasts.
-
-The detailed transaction-model review is in [Frasers / Accent Model Review](FRASERS_ACCENT_MODEL_REVIEW.md).
+The separate transaction-model review remains in [Frasers / Accent Model Review](FRASERS_ACCENT_MODEL_REVIEW.md). The model should continue to be described as a valuation and EPS-accretion workbench until sources and uses, financing, purchase-price allocation, pro forma statements, synergy timing and full model checks are complete.
 
 ## Interpretation and release discipline
 
 A formula check passing means only that the specific programmed test passed. It does not prove that the underlying assumption is correct, that a formula is conceptually appropriate, or that a model is complete.
 
-A case may be published as a work-in-progress if the scope and limitations are explicit. Do not publish a headline valuation where key workbook and summary outputs disagree. Do not describe an incomplete model as “fully reviewed”, “diligence-ready” or “industry standard”.
+A case may be published as a work-in-progress if scope and limitations are explicit. Do not describe an incomplete model as fully audited, diligence-ready, “industry standard” or equivalent to a proprietary investment-bank template.
