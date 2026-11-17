@@ -1,8 +1,9 @@
-# NatWest Group — Legacy Project Note
+# NatWest Group — Legacy Folder Pointer
 
-This folder contains an earlier working note. The canonical case-study page is:
+The current canonical case study and workbook are maintained here:
+
 [NatWest Group — Excess-Return / Residual-Income Valuation](../../valuation-case-studies/natwest-group/README.md)
 
-The published 532.6p/share output is a simplified residual-income model. It does not yet include a full regulatory-capital, RWA and through-cycle credit forecast.
+The current model is [NatWest_Excess_Return_Analyst_v3.xlsx](../../valuation-case-studies/natwest-group/NatWest_Excess_Return_Analyst_v3.xlsx). Its current model output is 556.2p/share. It includes a linked operating forecast and simplified CET1 / RWA / distribution schedule, but is not a full regulatory-capital or through-cycle credit model.
 
 See [Portfolio Model Review](../../docs/MODEL_REVIEW.md) for open technical items.
