@@ -21,6 +21,12 @@ A collection of company valuation and transaction-analysis exercises. Each case 
 
 The Analyst v3 files above are the current canonical workbooks for these three valuation cases. Earlier workbook copies and prior PDF summaries have been removed from the canonical case folders to avoid competing versions. No separate valuation memo or PDF summary is being published.
 
+## Additional financial modelling
+
+- [LVMH Integrated Forecast and DCF Model](LVMH_Integrated_Forecast_DCF_Model_v1.xlsx)
+
+The LVMH workbook combines reported historical financial and segment data with an analyst-built operating forecast, discounted cash flow valuation and WACC / terminal-growth sensitivity analysis. Forecast assumptions are explicitly identified. This is an illustrative valuation model, not a fully integrated three-statement model; balance-sheet roll-forwards and lease treatment remain limitations, and the output is not an investment recommendation or price target.
+
 ## Analytical approach
 
 The work is organised around a decision question, a traceable model and a conclusion proportionate to the evidence. The portfolio's release discipline is set out in [Modelling Standards](docs/MODELLING_STANDARDS.md).
