@@ -1,44 +1,50 @@
 # Investment Banking & Valuation Portfolio
 
-<sub>INDEPENDENT FINANCIAL RESEARCH · MODELLING · VALUATION · TRANSACTION ANALYSIS</sub>
+<sub>INDEPENDENT FINANCIAL RESEARCH · FINANCIAL MODELLING · VALUATION · M&A · CORPORATE CREDIT</sub>
 
-A collection of company valuation and transaction-analysis exercises. Each case distinguishes reported information, market observations and analyst assumptions, and states the scope and limitations of the work.
+A focused collection of company valuation, transaction-analysis and corporate-credit work. Each case distinguishes reported information, market observations and analyst assumptions, and states its scope, status and limitations.
 
-## Portfolio overview
+## Selected case studies
 
-| Case | Framework | Current model output | Status / principal limitation |
-|---|---|---:|---|
-| [Signet Jewelers](valuation-case-studies/signet-jewelers/README.md) | Unlevered DCF with FY27 H2 stub | US$140.33/share (Gordon); US$121.21 (6.0x exit) | Analyst-built case study. US$118.58 reference price (9 Nov 2026); 69.5% of Gordon EV is terminal value. Guidance bridge and H2 working capital remain review items. |
-| [Northern Star Resources](valuation-case-studies/northern-star-resources/README.md) | Forecast-period asset NAV | A$13.89/share | Partial NAV. FY27–FY36 explicit forecast; zero residual value beyond FY36, with material reserve cash flows excluded. |
-| [NatWest Group](valuation-case-studies/natwest-group/README.md) | Excess-return valuation linked to credit and capital schedules | No current per-share value published | Expanded analyst framework. Credit calibration, Basel 3.1 RWA, capital instruments and valuation integration remain open. The former 556.2p output belongs to an earlier simplified model. |
-| [Frasers Group / Accent Group](transaction-case-studies/frasers-accent/README.md) | Takeover valuation and illustrative accretion / dilution | A$0.65 offer price; illustrative model outputs in review note | In development. Not a complete integrated merger model; the working workbook is not currently published in this repository. |
+| Case | Focus | Status / key point |
+|---|---|---|
+| [TPG / Corpay / BILL](transaction-case-studies/tpg-corpay-bill/README.md) | US$6.0bn take-private; sponsor / strategic co-investment; LBO and merger economics | **New — analysis in progress.** Announced 19 Nov 2026 at US$63.25 per share. TPG majority investor; Corpay US$1.1bn minority investment and stated 2030 option. No independent valuation or returns output published yet. |
+| [Frasers Group / Accent Group](transaction-case-studies/frasers-accent/README.md) | Takeover valuation and illustrative accretion / dilution | **In development.** A$0.65 cash offer case; full integrated merger model and source refresh remain outstanding. |
+| [Signet Jewelers](valuation-case-studies/signet-jewelers/README.md) | Unlevered DCF; Gordon-growth and exit-multiple methods | Analyst-built DCF. US$140.33 / US$121.21 per share under the two terminal-value methods; significant terminal-value and forecast-diagnostic review items remain. |
+| [Northern Star Resources](valuation-case-studies/northern-star-resources/README.md) | Forecast-period asset NAV | A$13.89 per share under an FY27–FY36 explicit forecast and zero residual value beyond FY36; not a full reserve-life valuation. |
+| [NatWest Group](valuation-case-studies/natwest-group/README.md) | Integrated credit, regulatory-capital and excess-return framework | Expanded analyst model. Credit calibration, Basel 3.1 RWA, capital instruments and valuation integration remain open; no current per-share value published. |
 
-## Current canonical workbooks
+## Current canonical valuation workbooks
 
 - [Signet DCF — Analyst v3](valuation-case-studies/signet-jewelers/Signet_DCF_Analyst_v3.xlsx)
 - [Northern Star NAV — Analyst v3](valuation-case-studies/northern-star-resources/Northern_Star_NAV_Analyst_v3.xlsx)
 - [NatWest integrated credit and capital model — v3](valuation-case-studies/natwest-group/NatWest_Full_Reg_Capital_Through_Cycle_Credit_Model_v3_Audit_Checked.xlsx)
 
-The Analyst v3 Signet and Northern Star files and the integrated NatWest v3 file above are the canonical workbooks for their respective cases. Earlier NatWest standalone excess-return work is historical development, not the current integrated deliverable. No new NatWest per-share valuation is published pending recalculation and review of the integrated model.
+These are the canonical workbooks for their respective cases. Read each case page and review note before interpreting outputs. A mechanical model check does not establish that assumptions are economically calibrated or that the model is complete.
 
-The Frasers / Accent working workbook is not yet published in this repository. Its current state and required rebuild are documented in the [transaction model review](docs/FRASERS_ACCENT_MODEL_REVIEW.md).
+## Corporate credit analysis
+
+[Corporate Credit Risk Analysis — LVMH, Richemont and BHP](https://github.com/ThymeCapsule/banking-credit-risk-analytics)
+
+The separate credit repository contains three issuer credit memoranda, a comparative credit analysis and an Excel credit model. It assesses business risk, leverage, liquidity, cash generation, refinancing exposure and downside resilience using public disclosures. It is an issuer-level screening exercise, not an internal bank rating or an IFRS 9 expected-credit-loss model.
 
 ## Additional financial modelling
 
-- [LVMH Integrated Forecast and DCF Model](LVMH_Integrated_Forecast_DCF_Model_v1.xlsx)
+- [LVMH Integrated Forecast and DCF Model — v1](LVMH_Integrated_Forecast_DCF_Model_v1.xlsx)
 
-The LVMH workbook combines reported historical financial and segment data with an analyst-built operating forecast, discounted cash flow valuation and WACC / terminal-growth sensitivity analysis. Forecast assumptions are explicitly identified. This is an illustrative valuation model, not a fully integrated three-statement model; balance-sheet roll-forwards and lease treatment remain limitations, and the output is not an investment recommendation or price target.
+A newer integrated three-statement LVMH DCF model has since been developed and is undergoing audit. That updated workbook has not yet been published in this repository; the v1 workbook above remains the only published LVMH file here. Its valuation should not be treated as the output of the newer integrated model.
 
 ## Analytical approach
 
 The work is organised around a decision question, a traceable model and a conclusion proportionate to the evidence. The portfolio's release discipline is set out in [Modelling Standards](docs/MODELLING_STANDARDS.md).
 
-- Separate source data, analyst assumptions, calculations and outputs.
+- Separate reported data, market observations, derived figures and analyst assumptions.
 - Date-stamp valuation inputs and identify mismatched reporting dates.
-- Build short, traceable formulas and link schedules into outputs.
+- Build short, traceable formulas and link supporting schedules into outputs.
 - Reconcile sensitivity-table base cases to the main model.
 - Include visible model checks, diagnostics and an open-items register.
-- Distinguish a finite-horizon NAV from a full reserve-life valuation, and a simplified bank model from a fully calibrated regulatory-capital forecast.
+- Distinguish a finite-horizon NAV from a full reserve-life valuation, and an expanded bank model from a fully calibrated regulatory-capital forecast.
+- For M&A, distinguish takeover valuation from a complete merger model; explicitly model ownership, financing and accounting treatment.
 - Do not present analyst outputs as price targets or investment recommendations.
 
 ## Review and source documentation
